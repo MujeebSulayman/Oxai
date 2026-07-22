@@ -23,7 +23,6 @@ npx serve .
 
 Several placeholders in `index.html` still need real content before launch:
 
-- Favicon (currently a blank data URI)
 - Hero headline — pick one of the three options left in the HTML comment
 - About section copy and instructor bio
 - Banner image (currently a stock Unsplash photo)

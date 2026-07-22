@@ -178,12 +178,14 @@ h1, h2, h3, h4 {
 }
 
 .nav-logo {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: var(--color-ink);
+  display: flex;
+  align-items: center;
 }
-.nav-logo span { color: var(--color-signal); }
+.nav-logo img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
 
 .nav-links {
   display: none;
@@ -597,8 +599,6 @@ h1, h2, h3, h4 {
   color: var(--color-deep-soft);
   padding: 64px 0 0;
 }
-
-.footer .nav-logo { color: #fff; }
 
 .footer-inner {
   display: grid;
